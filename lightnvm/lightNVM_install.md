@@ -28,7 +28,7 @@ This is a fatal error.
 
 有时软件装不上，yum update或者clean一下。
 
-## <font color="#00ffff"> 1. 宿主机准备</font>
+##  1. 宿主机准备
 由于只是底层qemu-NVMe不同，我感觉宿主机的内核不需要升级，所以还是3.10。
 ### 1.1 安装qemu-kvm
 ```
@@ -101,7 +101,8 @@ DNS1=202.114.0.242
 重启网络。
 
 <hr/>
-## <font color="#00ffff">2.客户机准备</font>
+## 2. 客户机准备
+
 ### 2.1 虚拟机系统安装
 先把虚拟机装好，我是直接用virt-manager安装的centos7，版本3.10。
 ### 2.2 升级内核版本
